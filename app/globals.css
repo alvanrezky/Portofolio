@@ -996,11 +996,33 @@ body {
   border: 1.5px solid rgba(129,140,248,0.4);
   border-radius: 50%;
 }
-.deco-shape { position:absolute; border-radius:50%; }
-.ds-1 { width:44px; height:44px; background:#38bdf8; top:-14px; left:-10px; }
-.ds-2 { width:28px; height:28px; background:#e879f9; bottom:26px; right:-16px; }
-.ds-3 { width:18px; height:18px; background:#818cf8; top:48%; right:-28px; }
-.deco-blur { position:absolute; width:70px; height:70px; border-radius:50%; background:#38bdf8; filter: blur(20px); bottom:-20px; left:36px; }
+.deco-shape { 
+  position:absolute; 
+  border-radius:50%; 
+}
+.ds-1 { 
+  width:44px; height:44px; 
+  background:#38bdf8; 
+  top:-14px; left:-10px; 
+}
+.ds-2 { 
+  width:28px; height:28px; 
+  background:#e879f9; 
+  bottom:26px; right:-16px; 
+}
+.ds-3 { 
+  width:18px; height:18px; 
+  background:#818cf8; 
+  top:48%; right:-28px; 
+}
+.deco-blur { 
+  position:absolute; 
+  width:70px; height:70px; 
+  border-radius:50%; 
+  background:#38bdf8; 
+  filter: blur(20px); 
+  bottom:-20px; left:36px; 
+}
 .deco-chip {
   position:absolute; padding:0.35rem 0.8rem; border-radius:999px;
   font-size:0.68rem; font-weight:600;
@@ -1104,20 +1126,69 @@ body {
   border-radius: 4px;
   margin: 0 auto 6px;
 }
-.phone-screen { border-radius: 16px; overflow: hidden; background: #111118; }
-.holo-header { padding: 0.5rem 0.7rem; font-size: 0.66rem; font-weight: 700; color: white; }
-.holo-gh .holo-header { background: #24292f; }
-.holo-ig .holo-header { background: linear-gradient(135deg,#f58529,#dd2a7b,#8134af); }
-.holo-li .holo-header { background: #0a66c2; }
-.holo-body { padding: 0.7rem; min-height: 90px; }
-.holo-avatar { width: 36px; height: 36px; border-radius: 50%; margin-bottom: 6px; }
-.holo-name { font-size: 0.72rem; font-weight: 700; color: white; }
-.holo-bio { font-size: 0.62rem; color: rgba(255,255,255,0.55); margin: 2px 0; }
-.holo-stat { font-size: 0.62rem; color: #818cf8; }
-.holo-loading { font-size: 0.68rem; color: rgba(255,255,255,0.4); }
-.holo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 3px; }
-.holo-grid div { aspect-ratio: 1; background: rgba(255,255,255,0.1); border-radius: 2px; }
-.holo-line { height: 6px; background: rgba(255,255,255,0.12); border-radius: 3px; margin-bottom: 5px; }
+.phone-screen { 
+  border-radius: 16px; 
+  overflow: hidden; 
+  background: #111118; 
+}
+.holo-header { 
+  padding: 0.5rem 0.7rem; 
+  font-size: 0.66rem; font-weight: 700; 
+  color: white; 
+}
+.holo-gh .holo-header { 
+  background: #24292f; 
+}
+.holo-ig .holo-header { 
+  background: linear-gradient(135deg,#f58529,#dd2a7b,#8134af); 
+}
+.holo-li .holo-header { 
+  background: #0a66c2; 
+}
+.holo-body { 
+  padding: 0.7rem; 
+  min-height: 90px; 
+}
+.holo-avatar { 
+  width: 36px; 
+  height: 36px; 
+  border-radius: 50%; 
+  margin-bottom: 6px; 
+}
+.holo-name { 
+  font-size: 0.72rem; 
+  font-weight: 700; 
+  color: white; 
+}
+.holo-bio { 
+  font-size: 0.62rem; 
+  color: rgba(255,255,255,0.55); 
+  margin: 2px 0; 
+}
+.holo-stat { 
+  font-size: 0.62rem; 
+  color: #818cf8; 
+}
+.holo-loading { 
+  font-size: 0.68rem; 
+  color: rgba(255,255,255,0.4); 
+}
+.holo-grid { 
+  display: grid; 
+  grid-template-columns: repeat(3,1fr); 
+  gap: 3px; 
+}
+.holo-grid div { 
+  aspect-ratio: 1; 
+  background: rgba(255,255,255,0.1); 
+  border-radius: 2px; 
+}
+.holo-line { 
+  height: 6px; 
+  background: rgba(255,255,255,0.12); 
+  border-radius: 3px; 
+  margin-bottom: 5px; 
+}
 /* ===== Background Kontur (site-wide) ===== */
 .contour-bg {
   position: fixed;
