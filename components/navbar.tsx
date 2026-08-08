@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <span className="navbar-logo">alvan.dev</span>
+      <span className="navbar-logo">alvan.</span>
       <div className="navbar-links">
         <Link href="/">{t.nav.home}</Link>
         <Link href="/about">{t.nav.about}</Link>
