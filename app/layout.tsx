@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <ContourBackground />
             <Navbar />
             {children}
-            <Marquee text=" Alvan  •  Sistem Informasi  • Universitas Gunadarma • Portfolio " />
+            <Marquee text=" Alvan Priandana Adi  •  Sistem Informasi  • Universitas Gunadarma • Portfolio " />
             <Footer />
           </LanguageProvider>
         </ThemeProvider>
