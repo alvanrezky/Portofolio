@@ -37,24 +37,24 @@ export const projects: Project[] = [
     },
     timeline: [
       {
-        label: "Tahap 1",
+        label: "Mei 2026",
         title: "Riset & proposal bisnis",
         desc: "Menyusun argumen berbasis data SNLIK 2025, TAM, dan model biaya AI.",
       },
       {
-        label: "Tahap 2",
+        label: "Juli 2026",
         title: "Desain database & backend",
-        desc: "Setup Supabase, tabel transaksi, auth, dan API routes.",
+        desc: "Setup Supabase, tabel transaksi, auth, dan API routes, Tabel keuangan, grafik analisis, tabungan & investasi.",
       },
       {
-        label: "Tahap 3",
-        title: "Membangun UI & fitur inti",
-        desc: "Tabel keuangan, grafik analisis, tabungan & investasi.",
-      },
-      {
-        label: "Tahap 4",
+        label: "Agustus 2026",
         title: "Deploy & uji coba",
         desc: "Rilis ke Vercel, uji coba dengan pengguna awal.",
+      },
+      {
+        label: "September 2026",
+        title: "Evaluasi & uji coba tahap 2",
+        desc: "Revisi dan update ke vercel, uji coba tahap 2.",
       },
     ],
     screenshots: [
