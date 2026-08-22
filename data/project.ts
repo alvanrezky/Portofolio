@@ -66,4 +66,43 @@ export const projects: Project[] = [
       { src: "/foto6.jpg", label: "Rekomendasi" },
     ],
   },
+  {
+    slug: "Dashboard Analyst",
+    title: "Dampak AI terhadap Lapangan Kerja dan Risiko Pemutusan Hubungan Kerja",
+    summary: "Dashboard Analyst berbasis Ms. Execel & Looker Studio.",
+    track: "B",
+    logo: "",
+    thumbnail: "/poster-dampak-ai.png",
+    techStack: ["Ms. Excel", "Looker Studio", "Google Sheet"],
+    demoUrl: "https://datastudio.google.com/u/0/reporting/82354b24-a595-4c61-a697-a41bf97236e4/page/HYy6F",
+    repoUrl: "",
+    documentation: {
+      problem: "Maraknya pemberitaan tentang AI menggantikan pekerjaan manusia menimbulkan kecemasan luas, namun jarang disertai data konkret soal pekerjaan mana yang benar-benar berisiko tinggi dan mana yang masih relatif aman.",
+      approach: "Riset ini menganalisis data 20.000 pekerja dari 8 sektor industri, membandingkan skor risiko berdasarkan jenis industri, tingkat pengalaman kerja, jenis pekerjaan spesifik, hingga persentase tugas rutin di masing-masing posisi.",
+      insights: "Temuan utama menunjukkan bahwa faktor paling menentukan risiko PHK bukanlah industri atau lama bekerja, melainkan seberapa rutin dan repetitif tugas suatu pekerjaan. Semakin tinggi porsi tugas rutin, semakin tinggi pula skor risikonya, seperti terlihat pada sektor Manufacturing (2,29) dibanding Education (1,72).",
+      challenges: "Tantangan ke depan adalah bagaimana pekerja dengan tugas rutin tinggi (misalnya operator produksi) dapat bertransisi mengembangkan kompetensi yang sulit ditiru AI, seperti komunikasi, empati, dan pengambilan keputusan kontekstual, sebelum otomatisasi semakin meluas.",
+    },
+    timeline: [
+      {
+        label: "19/08/2026",
+        title: "Riset data",
+        desc: "Mencari suatu masalah yang akan saya analisis dan akan saya jawab masalahnya menggunakan data yang saya temukan.",
+      },
+      {
+        label: "20/08/2026",
+        title: "Data cleaning & data transformasi",
+        desc: "Merapihkan data mentah yang ada dan memisahkan mana saja data yang akan dianalisis.",
+      },
+      {
+        label: "21/08/2026",
+        title: "Analisis data",
+        desc: "Menganalisis data sesuai pertanyaan yang saya ingin dijawab melalui data.",
+      },
+      {
+        label: "24/08/2026",
+        title: "Menyusun dashboard analyst",
+        desc: "Menyusun dashboard dari hasil data yang saya dapatkan dari hasil analisis saya melalui chart dan dijelaskan dengan cerita.",
+      },
+    ],
+  },
 ];
