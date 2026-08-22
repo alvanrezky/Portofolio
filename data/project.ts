@@ -92,17 +92,17 @@ export const projects: Project[] = [
         desc: "Mencari suatu masalah yang akan saya analisis dan akan saya jawab masalahnya menggunakan data yang saya temukan.",
       },
       {
-        label: "20/08/2026",
+        label: "21/08/2026",
         title: "Data cleaning & data transformasi",
         desc: "Merapihkan data mentah yang ada dan memisahkan mana saja data yang akan dianalisis.",
       },
       {
-        label: "21/08/2026",
+        label: "28/08/2026",
         title: "Analisis data",
         desc: "Menganalisis data sesuai pertanyaan yang saya ingin dijawab melalui data.",
       },
       {
-        label: "24/08/2026",
+        label: "01/09/2026",
         title: "Menyusun dashboard analyst",
         desc: "Menyusun dashboard dari hasil data yang saya dapatkan dari hasil analisis saya melalui chart dan dijelaskan dengan cerita.",
       },
