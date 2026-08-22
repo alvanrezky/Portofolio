@@ -1234,7 +1234,8 @@ body {
   cursor: grab;
   touch-action: none;
   -webkit-user-drag: none;
-  user-select: none;
+  user-select: none; 
+  border-radius: 16px;
 }
 .lanyard-photo-only:active {
   cursor: grabbing;
