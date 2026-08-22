@@ -279,6 +279,9 @@ body {
 .k-sql { background:#e07b39; --kshadow:#a1541f; }
 .k-figma { background:#1a1a24; --kshadow:#000; }
 .k-git { background:#f1502f; --kshadow:#a92e18; }
+.k-excel { background: #217346; --kshadow: #14512f; }
+.k-sheets { background: #0f9d58; --kshadow: #0a6b3c; }
+.k-looker { background: #4285f4; --kshadow: #2a5fc4; }
 
 /* Lanyard */
 .lanyard-wrapper {
@@ -1239,12 +1242,25 @@ body {
 }
 .lanyard-photo-only:active {
   cursor: grabbing;
-}
 .navbar-top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
+}
+.navbar-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  padding: 4px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.navbar-controls {
+  margin-left: auto;
 }
 .navbar-hamburger {
   display: none;
@@ -1255,10 +1271,9 @@ body {
   padding: 4px;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    flex-wrap: wrap;
-    padding: 1rem 1.2rem;
+.navbar-top {
+    width: 100%;
+    justify-content: space-between;
   }
   .navbar-hamburger {
     display: flex;

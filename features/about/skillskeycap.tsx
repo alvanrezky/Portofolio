@@ -9,6 +9,9 @@ const skills = [
   { name: "SQL", cls: "k-sql" },
   { name: "Figma", cls: "k-figma" },
   { name: "Git", cls: "k-git" },
+  { name: "Excel", cls: "k-excel" },
+  { name: "Google Sheets", cls: "k-sheets" },
+  { name: "Looker Studio", cls: "k-looker" },
 ];
 
 const icons: Record<string, React.ReactNode> = {
@@ -84,6 +87,29 @@ const icons: Record<string, React.ReactNode> = {
         strokeWidth="1.6"
         strokeLinecap="round"
       />
+    </svg>
+  ),
+    Excel: (
+    <svg viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" strokeWidth="1.6"/>
+      <line x1="4" y1="9" x2="20" y2="9" stroke="white" strokeWidth="1.2"/>
+      <line x1="4" y1="14" x2="20" y2="14" stroke="white" strokeWidth="1.2"/>
+      <line x1="10.5" y1="4" x2="10.5" y2="20" stroke="white" strokeWidth="1.2"/>
+    </svg>
+  ),
+  "Google Sheets": (
+    <svg viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" strokeWidth="1.6"/>
+      <line x1="4" y1="9" x2="20" y2="9" stroke="white" strokeWidth="1.2"/>
+      <line x1="4" y1="14" x2="20" y2="14" stroke="white" strokeWidth="1.2"/>
+      <line x1="13.5" y1="4" x2="13.5" y2="20" stroke="white" strokeWidth="1.2"/>
+    </svg>
+  ),
+  "Looker Studio": (
+    <svg viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="12" width="4" height="8" fill="white"/>
+      <rect x="10" y="7" width="4" height="13" fill="white"/>
+      <rect x="16" y="3" width="4" height="17" fill="white"/>
     </svg>
   ),
 };
