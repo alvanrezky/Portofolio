@@ -46,42 +46,6 @@ body {
   border-radius: 4px;
 }
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-
-.navbar-logo {
-  font-weight: 700;
-}
-
-.navbar-links {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.navbar-links a {
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-.navbar-controls {
-  display: flex;
-  gap: 0.6rem;
-}
-
-.toggle-btn {
-  background: transparent;
-  border: 1px solid var(--color-primary);
-  border-radius: 999px;
-  padding: 0.3rem 0.7rem;
-  cursor: pointer;
-  color: var(--color-text);
-}
-
 /* Hero */
 .hero {
   padding: var(--spacing-section) 2rem;
@@ -1243,14 +1207,24 @@ body {
 .lanyard-photo-only:active {
   cursor: grabbing; 
 }
+/* ===== Navbar (konsolidasi, final) ===== */
 .navbar {
   display: flex;
   align-items: center;
   gap: 2.5rem;
+  padding: 1rem 2rem;
 }
-.navbar-controls {
-  margin-left: auto;
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.navbar-logo {
+  font-weight: 700;
+}
+
 .navbar-hamburger {
   display: none;
   background: none;
@@ -1259,15 +1233,54 @@ body {
   cursor: pointer;
   padding: 4px;
 }
-.navbar-top {
-    width: 100%;
-    justify-content: space-between; 
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.navbar-controls {
+  display: flex;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+
+.toggle-btn {
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+/* ===== Navbar Mobile ===== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 1rem 1.2rem;
   }
+
+  .navbar-top {
+    width: 100%;
+  }
+
+  .navbar-hamburger {
+    display: block;
+  }
+
   .navbar-links,
   .navbar-controls {
     display: none;
     width: 100%;
+    margin-left: 0;
   }
+
   .navbar-links-open,
   .navbar-controls-open {
     display: flex;
@@ -1277,9 +1290,11 @@ body {
     padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
+
   .navbar-controls-open {
     flex-direction: row;
   }
+}
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem !important;
