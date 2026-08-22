@@ -78,7 +78,7 @@ export const projects: Project[] = [
     techStack: ["Ms. Excel", "Looker Studio", "Google Sheet"],
     demoUrl: "https://datastudio.google.com/u/0/reporting/82354b24-a595-4c61-a697-a41bf97236e4/page/HYy6F",
     demoLabel: "Buka Dashboard",
-    repoUrl: "",
+    repoUrl: "https://github.com/alvanrezky/BijakDana.git",
     documentation: {
       problem: "Maraknya pemberitaan tentang AI menggantikan pekerjaan manusia menimbulkan kecemasan luas, namun jarang disertai data konkret soal pekerjaan mana yang benar-benar berisiko tinggi dan mana yang masih relatif aman.",
       approach: "Riset ini menganalisis data 20.000 pekerja dari 8 sektor industri, membandingkan skor risiko berdasarkan jenis industri, tingkat pengalaman kerja, jenis pekerjaan spesifik, hingga persentase tugas rutin di masing-masing posisi.",
