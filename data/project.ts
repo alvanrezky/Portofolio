@@ -7,6 +7,7 @@ export type Project = {
   thumbnail?: string;
   techStack: string[];
   demoUrl?: string;
+  demoLabel?: string;
   repoUrl?: string;
   documentation: {
     problem: string;
@@ -28,6 +29,7 @@ export const projects: Project[] = [
     thumbnail: "/thumbnail-bijakdana.png",
     techStack: ["Next.js", "Supabase", "TypeScript"],
     demoUrl: "https://bijak-dana.vercel.app",
+    demoLabel: "Lihat Prototype",
     repoUrl: "",
     documentation: {
       problem: "Generasi muda Indonesia mengadopsi layanan keuangan digital jauh lebih cepat dibanding pemahaman literasi keuangannya, memicu risiko perilaku konsumtif dan minim dana darurat.",
@@ -75,6 +77,7 @@ export const projects: Project[] = [
     thumbnail: "/poster-dampak-ai.png",
     techStack: ["Ms. Excel", "Looker Studio", "Google Sheet"],
     demoUrl: "https://datastudio.google.com/u/0/reporting/82354b24-a595-4c61-a697-a41bf97236e4/page/HYy6F",
+    demoLabel: "Buka Dashboard",
     repoUrl: "",
     documentation: {
       problem: "Maraknya pemberitaan tentang AI menggantikan pekerjaan manusia menimbulkan kecemasan luas, namun jarang disertai data konkret soal pekerjaan mana yang benar-benar berisiko tinggi dan mana yang masih relatif aman.",

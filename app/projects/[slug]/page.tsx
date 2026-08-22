@@ -31,7 +31,7 @@ export default async function ProjectDetailPage({
       <div className="detail-links">
         {project.demoUrl && (
           <a href={project.demoUrl} target="_blank" className="btn-gradient">
-            Live Demo
+            {project.demoLabel || "Live Demo"}
           </a>
         )}
         {project.repoUrl && (

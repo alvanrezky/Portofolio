@@ -82,7 +82,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="project-actions">
           {project.demoUrl && (
             <a href={project.demoUrl} target="_blank" className="btn-outline">
-              {t.projects.liveDemo}
+              {project.demoLabel || "Live Demo"}
             </a>
           )}
           <Link href={`/projects/${project.slug}`} className="btn-gradient-sm">
