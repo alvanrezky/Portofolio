@@ -67,7 +67,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "Dashboard Analyst",
+    slug: "HYy6F",
     title: "Dampak AI terhadap Lapangan Kerja dan Risiko Pemutusan Hubungan Kerja",
     summary: "Dashboard Analyst berbasis Ms. Execel & Looker Studio.",
     track: "B",
