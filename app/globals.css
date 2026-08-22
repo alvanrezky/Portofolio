@@ -824,7 +824,6 @@ body {
   align-items: center;
   gap: 4rem;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .about-hero-section > *:first-child {
   flex: 1 1 420px;
@@ -1225,6 +1224,20 @@ body {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2.5rem;
+}
+.lanyard-photo-only {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: left center;
+  display: block;
+  cursor: grab;
+  touch-action: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+.lanyard-photo-only:active {
+  cursor: grabbing;
 }
 
 
