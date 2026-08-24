@@ -30,7 +30,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "Supabase", "TypeScript"],
     demoUrl: "https://bijak-dana.vercel.app",
     demoLabel: "Lihat Prototype",
-    repoUrl: "",
+    repoUrl: "https://github.com/alvanrezky/BijakDana.git",
     documentation: {
       problem: "Generasi muda Indonesia mengadopsi layanan keuangan digital jauh lebih cepat dibanding pemahaman literasi keuangannya, memicu risiko perilaku konsumtif dan minim dana darurat.",
       approach: "BijakDana hadir sebagai asisten keuangan personal berbasis AI yang men-generate tabel anggaran otomatis, personal, dan adaptif bagi tiap pengguna.",
@@ -49,12 +49,12 @@ export const projects: Project[] = [
         desc: "Setup Supabase, tabel transaksi, auth, dan API routes, Tabel keuangan, grafik analisis, tabungan & investasi.",
       },
       {
-        label: "Agustus 2026",
+        label: "September 2026",
         title: "Deploy & uji coba",
         desc: "Rilis ke Vercel, uji coba dengan pengguna awal.",
       },
       {
-        label: "September 2026",
+        label: "Desember 2026",
         title: "Evaluasi & uji coba tahap 2",
         desc: "Revisi dan update ke vercel, uji coba tahap 2.",
       },
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     techStack: ["Ms. Excel", "Looker Studio", "Google Sheet"],
     demoUrl: "https://datastudio.google.com/u/0/reporting/82354b24-a595-4c61-a697-a41bf97236e4/page/HYy6F",
     demoLabel: "Buka Dashboard",
-    repoUrl: "https://github.com/alvanrezky/BijakDana.git",
+    repoUrl: "",
     documentation: {
       problem: "Maraknya pemberitaan tentang AI menggantikan pekerjaan manusia menimbulkan kecemasan luas, namun jarang disertai data konkret soal pekerjaan mana yang benar-benar berisiko tinggi dan mana yang masih relatif aman.",
       approach: "Riset ini menganalisis data 20.000 pekerja dari 8 sektor industri, membandingkan skor risiko berdasarkan jenis industri, tingkat pengalaman kerja, jenis pekerjaan spesifik, hingga persentase tugas rutin di masing-masing posisi.",
@@ -92,17 +92,17 @@ export const projects: Project[] = [
         desc: "Mencari suatu masalah yang akan saya analisis dan akan saya jawab masalahnya menggunakan data yang saya temukan.",
       },
       {
-        label: "21/08/2026",
+        label: "23/08/2026",
         title: "Data cleaning & data transformasi",
         desc: "Merapihkan data mentah yang ada dan memisahkan mana saja data yang akan dianalisis.",
       },
       {
-        label: "28/08/2026",
+        label: "15/09/2026",
         title: "Analisis data",
         desc: "Menganalisis data sesuai pertanyaan yang saya ingin dijawab melalui data.",
       },
       {
-        label: "01/09/2026",
+        label: "01/10/2026",
         title: "Menyusun dashboard analyst",
         desc: "Menyusun dashboard dari hasil data yang saya dapatkan dari hasil analisis saya melalui chart dan dijelaskan dengan cerita.",
       },
