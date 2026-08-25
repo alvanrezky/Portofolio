@@ -28,6 +28,13 @@ export default async function ProjectDetailPage({
         />
       )}
 
+      {project.background && (
+        <section className="detail-section detail-background">
+          <h2>Latar Belakang</h2>
+          <p>{project.background}</p>
+        </section>
+      )}
+
       <div className="detail-links">
         {project.demoUrl && (
           <a href={project.demoUrl} target="_blank" className="btn-gradient">
