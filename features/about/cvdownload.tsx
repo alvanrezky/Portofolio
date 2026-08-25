@@ -6,7 +6,7 @@ export default function CvDownload() {
 
   return (
     <div className="cv-download">
-      <a href="/cv-alvan.pdf" download className="btn-gradient">
+      <a href="/Alvan_Priandana_Adi_CV.pdf" download className="btn-gradient">
         {t.about.downloadCv}
       </a>
     </div>
