@@ -37,6 +37,7 @@ export default function Navbar() {
         <Link href="/" onClick={() => setMobileOpen(false)}>{t.nav.home}</Link>
         <Link href="/about" onClick={() => setMobileOpen(false)}>{t.nav.about}</Link>
         <Link href="/projects" onClick={() => setMobileOpen(false)}>{t.nav.projects}</Link>
+        <Link href="/experience" onClick={() => setMobileOpen(false)}>{t.nav.experience}</Link>
       </div>
 
       <div className={`navbar-controls ${mobileOpen ? "navbar-controls-open" : ""}`}>

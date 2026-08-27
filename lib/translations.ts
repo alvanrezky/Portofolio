@@ -1,6 +1,6 @@
 export const translations = {
   id: {
-    nav: { home: "Beranda", about: "Tentang", projects: "Portfolio", contact: "Kontak" },
+    nav: { home: "Beranda", about: "Tentang", projects: "Portfolio", experience: "Experience", contact: "Kontak" },
     hero: {
       greeting: "Halo, saya",
       role: "Mahasiswa Sistem Informasi",
@@ -43,7 +43,7 @@ export const translations = {
     footer: { text: "Sistem Informasi, Universitas Gunadarma" },
   },
   en: {
-    nav: { home: "Home", about: "About", projects: "Portfolio", contact: "Contact" },
+    nav: { home: "Home", about: "About", projects: "Portfolio", experience: "Experience", contact: "Contact" },
     hero: {
       greeting: "Hi, I'm",
       role: "Information Systems Student",
