@@ -4,7 +4,7 @@ export const translations = {
     hero: {
       greeting: "Halo, saya",
       role: "Mahasiswa Sistem Informasi",
-      welcome: "Selamat datang di portofolio saya. Terima kasih sudah berkunjung   scroll untuk melihat lebih lanjut.",
+      welcome: "Selamat datang di portofolio saya. Terima kasih sudah berkunjung — scroll untuk melihat lebih lanjut.",
       scrollHint: "Scroll untuk melihat lebih lanjut ↓",
     },
     about: {
@@ -40,6 +40,15 @@ export const translations = {
       timelineTitle: "Timeline Pembuatan",
       screenshotsTitle: "Tampilan Aplikasi",
     },
+    experience: {
+      label: "experience",
+      heading: "Perjalanan selama kuliah",
+      description:
+        "Dokumentasi kegiatan, sertifikasi, lomba, dan praktikum di luar project utama. Dicatat seperti log per semester.",
+      terminalPrefix: "cd",
+      terminalActivities: "kegiatan",
+      noProof: "Tidak ada lampiran bukti",
+    },
     footer: { text: "Sistem Informasi, Universitas Gunadarma" },
   },
   en: {
@@ -47,7 +56,7 @@ export const translations = {
     hero: {
       greeting: "Hi, I'm",
       role: "Information Systems Student",
-      welcome: "Welcome to my portfolio. Thanks for visiting   scroll to see more.",
+      welcome: "Welcome to my portfolio. Thanks for visiting — scroll to see more.",
       scrollHint: "Scroll to see more ↓",
     },
     about: {
@@ -82,6 +91,15 @@ export const translations = {
       appLabel: "Web App", dataLabel: "Data",
       timelineTitle: "Development Timeline",
       screenshotsTitle: "App Preview",
+    },
+    experience: {
+      label: "experience",
+      heading: "Journey through college",
+      description:
+        "Documentation of activities, certifications, competitions, and lab work outside main projects. Logged per semester.",
+      terminalPrefix: "cd",
+      terminalActivities: "activities",
+      noProof: "No proof attached",
     },
     footer: { text: "Information Systems, Universitas Gunadarma" },
   },

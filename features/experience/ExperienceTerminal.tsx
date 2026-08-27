@@ -1,4 +1,9 @@
+"use client";
+import { useLanguage } from "@/context/languagecontext";
+
 export default function ExperienceTerminal({ semester, count }: { semester: number; count: number }) {
+  const { t } = useLanguage();
+
   return (
     <div className="exp-terminal">
       <div className="exp-terminal-top">
@@ -9,8 +14,8 @@ export default function ExperienceTerminal({ semester, count }: { semester: numb
       </div>
       <div className="exp-terminal-line">
         <span className="exp-terminal-user">alvan@dev</span>
-        <span className="exp-terminal-prompt">:~$</span> cd semester-{semester}{" "}
-        <span className="exp-terminal-comment">// {count} kegiatan</span>
+        <span className="exp-terminal-prompt">:~$</span> {t.experience.terminalPrefix} semester-{semester}{" "}
+        <span className="exp-terminal-comment">// {count} {t.experience.terminalActivities}</span>
       </div>
     </div>
   );

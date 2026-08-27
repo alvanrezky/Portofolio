@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
 import { ExperienceItem, jenisColor } from "@/data/experience";
+import { useLanguage } from "@/context/languagecontext";
 
 const ROTATIONS = [-3, 2, -1.5, 2.5, -2, 1.5];
 
 export default function ExperienceCard({ item, index }: { item: ExperienceItem; index: number }) {
+  const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   const rotation = ROTATIONS[index % ROTATIONS.length];
   const color = jenisColor[item.jenis];
@@ -41,7 +43,7 @@ export default function ExperienceCard({ item, index }: { item: ExperienceItem; 
           )}
 
           {!item.buktiLampiran && (
-            <div className="exp-no-proof">Tidak ada lampiran bukti</div>
+            <div className="exp-no-proof">{t.experience.noProof}</div>
           )}
         </div>
       )}
