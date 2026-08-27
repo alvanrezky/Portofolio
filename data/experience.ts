@@ -125,5 +125,5 @@ export const jenisColor: Record<Jenis, { bg: string; text: string }> = {
   Sertifikasi: { bg: "rgba(245,166,35,0.15)", text: "#f5a623" },
   Bootcamp: { bg: "rgba(167,139,250,0.15)", text: "#a78bfa" },
   Kepanitiaan: { bg: "rgba(244,114,182,0.15)", text: "#f472b6" },
-  Lomba: { bg: "rgba(251,146,60,0.15)", text: "#fb923c" },
+  Lomba: { bg: "rgba(251, 113, 133, 0.15)", text: "#E11D48" },
 };
