@@ -4,7 +4,7 @@ export const translations = {
     hero: {
       greeting: "Halo, saya",
       role: "Mahasiswa Sistem Informasi",
-      welcome: "Selamat datang di portofolio saya. Terima kasih sudah berkunjung — scroll untuk melihat lebih lanjut.",
+      welcome: "Selamat datang di portofolio saya. Terima kasih sudah berkunjung scroll untuk melihat lebih lanjut.",
       scrollHint: "Scroll untuk melihat lebih lanjut ↓",
     },
     about: {
@@ -56,7 +56,7 @@ export const translations = {
     hero: {
       greeting: "Hi, I'm",
       role: "Information Systems Student",
-      welcome: "Welcome to my portfolio. Thanks for visiting — scroll to see more.",
+      welcome: "Welcome to my portfolio. Thanks for visiting scroll to see more.",
       scrollHint: "Scroll to see more ↓",
     },
     about: {
