@@ -117,6 +117,16 @@ export const experienceData: ExperienceItem[] = [
     deskripsiLengkap:
       "pelatihan mengenai Coding, Artificial Intelligence (AI), dan Internet of Things (IoT).",
   },
+    {
+    semester: 3,
+    jenis: "Bootcamp",
+    judul: "Dicoding Academy - Coding Camp 2026 3.0 powered by DBS Foundation",
+    deskripsiSingkat: "program beasiswa belajar Dasar Pemrograman Web dari Dicoding Academy  .",
+    deskripsiLengkap:
+      "pelatihan mengenai membentuk halaman web yang interaktif dan menarik dengan HTML, CSS, dan flexbox.",
+    buktiLampiran: "E-sertifikat",
+    buktiUrl: "/sertifikat dicoding belajar dasar pemrograman web.pdf",
+  },
 ];
 
 export const jenisColor: Record<Jenis, { bg: string; text: string }> = {
